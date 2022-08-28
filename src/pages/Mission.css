@@ -1,0 +1,9 @@
+.p_msi{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    color: rgb(212, 209, 209);
+    font-size: 14px;
+    padding: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}

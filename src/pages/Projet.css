@@ -1,0 +1,95 @@
+.conetnues{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    color: black;
+    background-color: rgb(214, 214, 214);
+}
+
+.voirImg{
+  width: 100%;
+  height: 100%;
+}
+
+.imgVoir{
+    max-width: 100%;
+}
+.img__cover{
+   width: 100%;
+    height: 100%;
+    object-fit: contain;    
+}
+
+.app_projet{
+    display: flex;  
+    flex-wrap: wrap;
+   justify-content: center;    
+}
+.divimgprojet{          
+   margin-left: 5px; 
+}
+.pourImg{
+    width: auto;    
+}
+.ulImgProjet{  
+    height: 10rem;
+    list-style-type: none;
+    opacity: 0.7;
+}
+.ulImgProjet:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.ImgProjet{   
+  width: 100%;
+  height: 7rem;
+  image-resolution: initial;
+}
+.divdetail{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    bottom: 0;
+    left: 0;
+}
+  
+  .titreDescProjet{
+      display: block;
+      
+
+  }
+  .detailprojet{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 3rem;
+      padding: 10px;      
+      float: right;
+
+  }
+  .detailprojet ul {
+      padding-left: 1rem;
+     line-height: 2rem;
+     font-size: .9rem;
+  }
+  .detailprojet h2{
+      font-size: 1rem;
+  }
+  div ul li {
+    list-style-type: none;
+  }
+  .descprojet{
+      padding-top: 2rem;
+  }
+  .projetText{
+      padding-top: 1rem;
+     line-height: 1.5rem;
+     text-align: justify;      
+  }
+  .description{
+      width: 60%;
+  }
